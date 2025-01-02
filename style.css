@@ -1,0 +1,67 @@
+/* This is a shity style */
+
+
+body    {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(27, 25, 25);
+}
+
+.container  {
+    width: 300px;
+    height: 450px;
+    display: grid;
+    margin: auto;
+    margin-top: 30px;
+    border: 0.5px solid goldenrod;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(15, 14, 14);
+}            
+
+/* Screen */
+
+.screen {
+    width: 290px;
+    height: 80px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgba(27, 25, 25, 0.555);
+}
+
+/* Keys */
+.keys   {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgb(15, 14, 14);
+}
+
+.row    {
+    display: inline-flex;
+    border: 2px solid goldenrod;
+    border-left: none;
+    border-right: none;
+}
+
+.row div    {
+    width: 73px;
+    border: 0.25px solid goldenrod;
+    border-top: none;
+    border-bottom: none;
+}
+
+.row button {
+    width: 73px;
+    height: 73px;
+    color: goldenrod;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.row button:hover   {
+    color: rgb(199, 169, 0);
+}
+
