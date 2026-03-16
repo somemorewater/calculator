@@ -5,5 +5,5 @@ const showOutput = document.querySelector('#outputScreen');
 
 
 buttonInput.addEventListener("click", () => {
-    console.log(buttonInput.value);
+    
 })
